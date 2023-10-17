@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Bootstrap Assignment</title>
+    <style>
+        .container {
+            border: 5px solid black;
+            background-color: darkolivegreen;
+        }
+
+        .mid-img {
+            height: 100%;
+            width: 100%;
+            border: 3px solid white;
+        }
+
+        .para {
+            text-align: center;
+            border: 3px solid white;
+        }
+        .para-row{
+            height: 50%;
+            width: 100%;
+            
+        }
+
+        .img-mid-1 {
+            height: 100%;
+            width: 100%;
+            border: 3px solid white;
+        }
+
+        .img-outer-1 {
+            height: 100%;
+            width: 100%;
+            border: 3px solid white;
+        }
+
+        img {
+            transition: transform .3s;
+            width: 100%;
+            height: 100%;
+        }
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(0.7);
+        }
+
+        .para{
+            background-color: aqua;
+            color: black;
+            font-size: large;
+            font-weight: 700;
+        }
+        .para-btm{
+            background-color: coral;
+            color: black;
+            font-size: large;
+            font-weight: 700;
+            width: 100%;
+            height: 100%;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img class="img-outer-1"
+                    src="https://media.istockphoto.com/id/1478186761/photo/sea-anemone-at-the-aquarium.webp?s=170667a&w=0&k=20&c=UGXTA27RuYxXxcDN0bE5jCPtxpNZotcK_ummQ_LprFo="
+                    alt="img-1" class="img-thumbnail">
+            </div>
+            <div class="col-2">
+                <img class="img-mid-1"
+                    src="https://media.istockphoto.com/id/1285091708/photo/anemone-fish-red-sea.webp?s=170667a&w=0&k=20&c=D3jTi7BrZNbYwyIjvpzriYmzub6jwyi4kkgqhdSdGjc="
+                    alt="img-2" class="img-thumbnail">
+            </div>
+            <div class="col-2">
+                <img class="img-mid-1"
+                    src="https://media.istockphoto.com/id/978018090/photo/the-beauty-of-the-cayman-islands.webp?s=170667a&w=0&k=20&c=c2dtsEKraUJvgxxRPv1XpUmnp-mld1KNYs42AXBaKRo="
+                    alt="img-3" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <img class="img-outer-1"
+                    src="https://images.unsplash.com/photo-1696855179868-9c40f02b4706?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                    alt="img-4" class="img-thumbnail">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <img src="https://images.unsplash.com/photo-1697081544011-e472e6a19cc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                        alt="" class="img-thumbnail">
+                </div>
+                <div class="row">
+                    <img src="https://media.istockphoto.com/id/1177806061/photo/young-woman-traveler-walking-in-the-old-town-shangri-la-travel-lifestyle-concept.webp?s=170667a&w=0&k=20&c=s_tE4Z2z8GNJHeG-PYDNZrdxRIi0wr47DMPTm92xYB8="
+                        alt="" class="img-thumbnail">
+                </div>
+                <div class="row">
+                    <img src="https://media.istockphoto.com/id/1332891869/photo/young-woman-exploring-the-new-city.webp?s=170667a&w=0&k=20&c=B6GqMHPlRuP90bsd3O3rwoMC7rl0GAuZ3UrZSvSL6i0="
+                        alt="" class="img-thumbnail">
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="mid-img"
+                    src="https://media.istockphoto.com/id/1213397558/photo/attractive-tourist-with-a-retro-camera.webp?s=170667a&w=0&k=20&c=xa3FuP8QgXdqjBz7F47ueUdFaj6TqptEbP0lABLyw3k="
+                    alt="" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+                <div class="row para-row">
+                    <!-- <img src="https://media.istockphoto.com/id/1081702700/photo/young-woman-using-a-vintage-camera.jpg?s=612x612&w=0&k=20&c=KCe03cN-7qeiqTBqbSGMnlC4KDycxK38gRyZgeK8paE="
+                        alt="" class="img-thumbnail"> -->
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam vero eaque est, ducimus laboriosam hic obcaecati
+                        iusto voluptatum, voluptates ullam quasi quo repellendus
+                    </p>
+                </div>
+                <div class="row para-row">
+                    <!-- <img src="https://media.istockphoto.com/id/1213397555/photo/attractive-photographer-with-a-retro-camera-outdoors.jpg?s=612x612&w=0&k=20&c=SZZdr_7CMEtKHtIIHAcoDzoFYxv5hiP1drWX-RvQMxY="
+                        alt="" class="img-thumbnail"> -->
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam vero eaque est, ducimus laboriosam hic obcaecati
+                        iusto voluptatum, voluptates ullam quasi quo repellendus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="para-btm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit, consequatur quo soluta assumenda, ad facere modi
+                    commodi cum magnam, perspiciatis dolor velit? Eligendi tempore
+                    numquam laboriosam dolor impedit autem architecto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tempore
+                    fuga illo reiciendis aliquam! Minus velit et placeat aut esse in.
+                    Suscipit facere laborum aspernatur ipsam placeat quod ducimus amet!</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</html>
